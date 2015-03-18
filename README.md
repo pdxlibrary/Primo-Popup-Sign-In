@@ -97,8 +97,11 @@ The Login Form can be designed any way you want. Simply edit the contents betwee
 The following link ID's will be automatically updated to use the appropriate returning target location after a successful sign in. These ID's must be retained when modifying the form design.
 
 *sso_login_link*
+
 *community_member_login_link*
+
 *guest_login_link*
+
 
 
 
