@@ -73,7 +73,15 @@ PATH_TO_JS_FILE - set to the path where you have uploaded the primo-popup-sign-i
 
 PATH_TO_JQUERYUI_THEME - set to the path where you have uploaded your jQueryUI Theme
 
-SSO_LOGIN_URL - set to your institution's Single Sign-on URL prefix. The redirect location after authentication will be added to this setting. Example: var sso_login_url = "https://sso.pdx.edu/cas/login?service=";
+SSO_LOGIN_URL - set to your institution's Single Sign-on URL prefix. The redirect location after authentication will be added to this setting. 
+
+Example: 
+
+```javascript
+
+var sso_login_url = "https://sso.pdx.edu/cas/login?service=";
+
+```
 
 
 ## Login Form Design
