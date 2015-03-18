@@ -14,6 +14,9 @@ Add the following to your header or footer template file:
 <!-- Include Files for Popup Login Form -->
 <script src="//PATH_TO_JS_FILE/primo-popup-sign-in.js"></script>
 <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script>
+var sso_login_url = "SSO_LOGIN_URL";
+</script>
 <link rel="stylesheet" href="//PATH_TO_JQUERYUI_THEME/css/jquery-ui.css">
 
 <!-- Popup Login Form -->
@@ -68,10 +71,13 @@ Add the following to your header or footer template file:
 
 PATH_TO_JS_FILE - set to the path where you have uploaded the primo-popup-sign-in.js file from this application
 PATH_TO_JQUERYUI_THEME - set to the path where you have uploaded your jQueryUI Theme
+SSO_LOGIN_URL - set to your institution's Single Sign-on URL prefix. The redirect location after authentication will be added to this setting. Example: var sso_login_url = "https://sso.pdx.edu/cas/login?service=";
+
 
 ## Login Form Design
 
-The Login Form can be designed any way you want. Simply edit the contents between <!-- Popup Login Form --> and <!-- /Popup Login Form -->.
+The Login Form can be designed any way you want. Simply edit the contents between
+<!-- Popup Login Form --> and <!-- /Popup Login Form -->.
 
 The following link ID's will be updated to use the appropriate returning target location after a successful sign in. These ID's must be used when modifying the form design.
 
