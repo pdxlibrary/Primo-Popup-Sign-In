@@ -87,7 +87,12 @@ var sso_login_url = "https://sso.pdx.edu/cas/login?service=";
 ## Login Form Design
 
 The Login Form can be designed any way you want. Simply edit the contents between
+
+```html
+
 <!-- Popup Login Form --> and <!-- /Popup Login Form -->.
+
+```
 
 The following link ID's will be updated to use the appropriate returning target location after a successful sign in. These ID's must be used when modifying the form design.
 
