@@ -90,15 +90,15 @@ The Login Form can be designed any way you want. Simply edit the contents betwee
 
 ```html
 
-<!-- Popup Login Form --> and <!-- /Popup Login Form -->.
+<!-- Popup Login Form --> and <!-- /Popup Login Form -->
 
 ```
 
-The following link ID's will be updated to use the appropriate returning target location after a successful sign in. These ID's must be used when modifying the form design.
+The following link ID's will be automatically updated to use the appropriate returning target location after a successful sign in. These ID's must be retained when modifying the form design.
 
-sso_login_link
-community_member_login_link
-guest_login_link
+*sso_login_link*
+*community_member_login_link*
+*guest_login_link*
 
 
 
