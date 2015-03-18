@@ -22,7 +22,7 @@ var sso_login_url = "SSO_LOGIN_URL";
 <!-- Popup Login Form -->
 <div id="login-lightbox" title="Sign In" style="display:none;">
 <div><a id="sso_login_link" href="#">Single Sign-on</a></div>
-<div><a id="community_member_login_link" href="#">Primo Sign-in</a></div>
+<div><a id="alma_login_link" href="#">Primo Sign-in</a></div>
 <div><a id="guest_login_link" href="#">Continue as guest</a></div>
 </div>
 <!-- /Popup Login Form -->
@@ -60,7 +60,7 @@ The following link ID's will be automatically updated to use the appropriate ret
 
 *sso_login_link*
 
-*community_member_login_link*
+*alma_login_link*
 
 *guest_login_link*
 
