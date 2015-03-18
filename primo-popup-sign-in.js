@@ -40,7 +40,7 @@ jQuery( document ).ready(function(jQuery) {
 
 	// set login urls
 	jQuery("#sso_login_link").attr("href",sso_login_url+"https%3a%2f%2falliance-primo-pds%2ehosted%2eexlibrisgroup%2ecom%2fcas5%2fpds_main%3ffunc%3dload-login%26calling_system%3dprimo%26institute%3dPSU%26PDS_HANDLE%3d%26url%3dhttp%3a%2f%2falliance-primo-sb%2ehosted%2eexlibrisgroup%2ecom%3a80%2fprimo_library%2flibweb%2faction%2flogin%2edo%3ftargetURL%3d"+encodeURIComponent(document.URL));
-	jQuery("#community_member_login_link").attr("href","https://alliance-primo-pds.hosted.exlibrisgroup.com/pds?func=load-login&amp;pds_handle=&amp;calling_system=primo&amp;institute=01ALLIANCE_PSU&amp;url=http://alliance-primo-sb.hosted.exlibrisgroup.com:80/primo_library/libweb/action/login.do?targetURL="+document.URL);
+	jQuery("#alma_login_link").attr("href","https://alliance-primo-pds.hosted.exlibrisgroup.com/pds?func=load-login&amp;pds_handle=&amp;calling_system=primo&amp;institute=01ALLIANCE_PSU&amp;url=http://alliance-primo-sb.hosted.exlibrisgroup.com:80/primo_library/libweb/action/login.do?targetURL="+document.URL);
 	jQuery("#guest_login_link").attr("href","http://alliance-primo-sb.hosted.exlibrisgroup.com:80/primo_library/libweb/action/login.do?targetURL="+document.URL);
 });
 
@@ -57,7 +57,7 @@ jQuery( document ).ajaxComplete(function() {
 			jQuery( "#login-lightbox" ).dialog("open");
 			// set login urls (link directly to item details page, not current page)
 			jQuery("#sso_login_link").attr("href",sso_login_url+"https%3a%2f%2falliance-primo-pds%2ehosted%2eexlibrisgroup%2ecom%2fcas5%2fpds_main%3ffunc%3dload-login%26calling_system%3dprimo%26institute%3dPSU%26PDS_HANDLE%3d%26url%3dhttp%3a%2f%2falliance-primo-sb%2ehosted%2eexlibrisgroup%2ecom%3a80%2fprimo_library%2flibweb%2faction%2flogin%2edo%3ftargetURL%3d"+encodeURIComponent(target));
-			jQuery("#community_member_login_link").attr("href","https://alliance-primo-pds.hosted.exlibrisgroup.com/pds?func=load-login&amp;pds_handle=&amp;calling_system=primo&amp;institute=01ALLIANCE_PSU&amp;url=http://alliance-primo-sb.hosted.exlibrisgroup.com:80/primo_library/libweb/action/login.do?targetURL="+target);
+			jQuery("#alma_login_link").attr("href","https://alliance-primo-pds.hosted.exlibrisgroup.com/pds?func=load-login&amp;pds_handle=&amp;calling_system=primo&amp;institute=01ALLIANCE_PSU&amp;url=http://alliance-primo-sb.hosted.exlibrisgroup.com:80/primo_library/libweb/action/login.do?targetURL="+target);
 			jQuery("#guest_login_link").attr("href","http://alliance-primo-sb.hosted.exlibrisgroup.com:80/primo_library/libweb/action/login.do?targetURL="+target);
 		});
 	});
