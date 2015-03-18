@@ -7,7 +7,7 @@ jQueryUI - http://jqueryui.com/
 
 ## Installation
 
-Add the following to the top of your header or footer template file:
+Add the following to your header or footer template file:
 
 ```html 
 
