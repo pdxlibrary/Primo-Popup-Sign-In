@@ -34,6 +34,13 @@ var sso_login_url = "SSO_LOGIN_URL";
 *PATH_TO_JS_FILE* - set to the path where you have uploaded the primo-popup-sign-in.js file from this application
 
 *PATH_TO_JQUERYUI_THEME* - set to the path where you have uploaded your jQueryUI Theme
+ - If you don't want to create your own jQuery UI theme, Google provides access to popular themes. 
+```css
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+```
+
 
 *SSO_LOGIN_URL* - set to your institution's Single Sign-on URL prefix. The redirect location after authentication will be added to this setting. 
 
